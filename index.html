@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>COVID-19 in the US</title>
+    <meta charset="UTF-8" /> 
+    <link rel="stylesheet" type="text/css" href="./src/styles.css">
+  </head>
+
+  <body>
+    <div id="title">
+      <h2>Reported Cases of COVID-19 in the United States</h2>
+      <p><em>(mouse-over/tap on a state or county to get more information)</em></p>
+    </div>
+    <div id="stateGraph"></div>
+    <div id="countyGraph">
+        <h5>[Note: data was provided for all counties of NYC as one, so all 5 counties are referred to as 'New York City County']</h5>
+    </div>
+    <div id="footer">
+        <h4>All Data Taken From <a href=https://www.nytimes.com>'The New York Times'</a></h4>
+        <h5>Source: <a href=https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html>https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html</a></h5><br>
+       
+    </div>
+
+    <script src="src/byCounty.js"></script>
+    <script src="src/byState.js"></script>
+  </body>
+  <footer>
+    <h5>Visualization Created By: Jeff Neuberger &copy;2020</h5>
+    <p><a href="/trends.html">Check out some trend graphs of the COVID-19 data here</a>
+  </footer>
+</html>
